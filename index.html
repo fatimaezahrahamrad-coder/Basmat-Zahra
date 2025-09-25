@@ -5,49 +5,107 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Basmat Zahra - Handmade Crochet</title>
   <style>
-    body { font-family: Arial, sans-serif; margin:0; padding:0; text-align:center; background:#fffaf7; color:#333; }
-    header { background:#f8c9d4; padding:50px 20px; }
-    header h1 { font-size:2.5em; margin:0; }
-    header p { font-size:1.2em; }
-    section { padding:50px 20px; }
-    footer { background:#f1f1f1; padding:20px; font-size:0.9em; }
-    .btn { display:inline-block; margin:10px; padding:10px 20px; background:#e97c8d; color:#fff; text-decoration:none; border-radius:5px; }
-    .btn:hover { background:#d66879; }
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      padding: 0;
+      background: #fffaf7;
+      color: #333;
+    }
+    header {
+      background: #f8caca;
+      padding: 15px;
+      text-align: center;
+    }
+    nav a {
+      margin: 0 15px;
+      text-decoration: none;
+      color: #333;
+      font-weight: bold;
+    }
+    section {
+      padding: 40px 20px;
+      text-align: center;
+    }
+    h2 {
+      color: #d16b6b;
+      margin-bottom: 20px;
+    }
+    .products {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+      gap: 20px;
+      margin-top: 20px;
+    }
+    .product-card {
+      background: #fff;
+      padding: 15px;
+      border-radius: 10px;
+      box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    }
+    .product-card img {
+      max-width: 100%;
+      border-radius: 8px;
+    }
+    footer {
+      text-align: center;
+      background: #f8caca;
+      padding: 15px;
+      margin-top: 40px;
+    }
   </style>
 </head>
 <body>
 
-<header>
-  <h1>Basmat Zahra</h1>
-  <p>Beautiful Handmade Crochet Creations</p>
-  <a href="#shop" class="btn">Shop Now</a>
-  <a href="#contact" class="btn">Contact Me</a>
-</header>
+  <header>
+    <h1>Basmat Zahra</h1>
+    <p>Handmade Crochet with Love 💕</p>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#products">Products</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
 
-<section id="about">
-  <h2>About</h2>
-  <p>At <strong>Basmat Zahra</strong>, each crochet piece is made with love, care, and attention to detail. 
-  From cozy wearables to unique home décor, every design tells a story of patience and creativity.</p>
-</section>
+  <section id="about">
+    <h2>About Me</h2>
+    <p>
+      Welcome to Basmat Zahra 🌸. Each crochet piece is handmade with care, patience, 
+      and creativity. From cozy wearables to unique home décor, every design tells a story.
+    </p>
+  </section>
 
-<section id="products">
-  <h2>Products</h2>
-  <ul style="list-style:none; padding:0;">
-    <li>🧣 Accessories – bags, scarves, hats</li>
-    <li>🏡 Home Décor – pillows, blankets, wall art</li>
-    <li>🎁 Custom Orders – personalized crochet gifts</li>
-  </ul>
-</section>
+  <section id="products">
+    <h2>Products</h2>
+    <div class="products">
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200" alt="Accessories">
+        <h3>Accessories</h3>
+        <p>Bags, scarves, and hats</p>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200" alt="Home Décor">
+        <h3>Home Décor</h3>
+        <p>Pillows, blankets, and wall art</p>
+      </div>
+      <div class="product-card">
+        <img src="https://via.placeholder.com/200" alt="Custom Orders">
+        <h3>Custom Orders</h3>
+        <p>Personalized crochet gifts</p>
+      </div>
+    </div>
+  </section>
 
-<section id="contact">
-  <h2>Contact</h2>
-  <p>📩 Email: yourname@email.com</p>
-  <p>📷 Instagram: @yourhandle</p>
-</section>
+  <section id="contact">
+    <h2>Contact</h2>
+    <p>📧 Email: yourname@email.com</p>
+    <p>📷 Instagram: @yourhandle</p>
+  </section>
 
-<footer>
-  <p>© 2025 Basmat Zahra | Handmade with love 💕</p>
-</footer>
+  <footer>
+    <p>© 2025 Basmat Zahra | Handmade with love 💕</p>
+  </footer>
 
 </body>
 </html>
+
